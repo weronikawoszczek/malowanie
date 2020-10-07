@@ -1,0 +1,149 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    height: 100vh;
+  }
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: $main--dark;
+  height: 60vh;
+  padding-left: 50px;
+  @include media-breakpoint-down(md) {
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+  }
+  .menu-icon {
+    display: none;
+    color: white;
+    padding: 34px 30px 23px 0;
+    background-color: #000;
+    cursor: pointer;
+    z-index: 250;
+    width: 44px;
+    @include media-breakpoint-down(md) {
+      &.hamburger-icon {
+        &.active {
+            display: block;
+          }
+        }
+      &.cross-icon {
+        &.active {
+          display: block;
+        }
+      }
+    }
+  }
+  .menu {
+    padding: 20px 0 0;
+    margin-left: 0;
+    counter-reset: item;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 100;
+    @include media-breakpoint-down(md) {
+      position: absolute;
+      background-color: #000;
+      width: 250px;
+      padding: 40px 0 0 50px;
+      left: 0;
+      will-change: top;
+      transition: top .5s ease-out;
+      top: -530px;
+      &.active {
+        top: 72px;
+      }
+    }
+  }
+
+  li {
+    min-height: 60px;
+    cursor: pointer;
+    position: relative;
+    @include animate;
+
+    &::after {
+      content: '';
+      height: 1px;
+      width: 0;
+      position: absolute;
+      top: 32px;
+      left: 0;
+      right: 0;
+      background-color: $aux;
+      @include animate;
+    }
+
+    &:hover, &:focus, &:active {
+      @include animate;
+
+      &::after {
+        width: 100%;
+        @include animate;
+      }
+
+      a {
+        color: $main--light;
+        text-decoration: none;
+
+        &::before {
+          color: $main--light;
+          @include animate;
+        }
+      }
+    }
+
+    a::before {
+      counter-increment: item;
+      content: counter(item, decimal-leading-zero) " ";
+      position: absolute;
+      color: $aux-dark;
+      top: -20px;
+      @include makeRem(11);
+      @include animate;
+    }
+  }
+}
+
+.tiles {
+  height: 40vh;
+}
+
+.loader {
+  //background: url(/dist/assets/img/product2.png) no-repeat center center;
+  //background-size: cover;
+  //height: 100%;
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+}
+
+//.with-arrow {
+//  .arrow {
+//    width: 30px;
+//    will-change: transform;
+//    transition: transform .3s ease-in;
+//  }
+//  &:hover {
+//    .arrow {
+//      transform: translate(20%, 0);
+//    }
+//  }
+//}
+
+

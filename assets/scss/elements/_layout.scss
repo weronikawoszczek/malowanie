@@ -1,0 +1,162 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: $baseSize+px;
+  font-family: $font-main;
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4);
+  color: $main;
+  //background: url(../img/bgbg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  line-height: 1;
+}
+
+.page-limiter {
+  display: flex;
+  max-width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+  background: url(../img/weselne-bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+// responsive images
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// links
+a {
+  //color: $aux-darker;
+  text-decoration: none;
+  //@include makeRem(15);
+  //@include animate;
+
+  &:hover, &:focus, &:active {
+    color: $main--light;
+    @include animate;
+    text-decoration: none;
+  }
+}
+
+// whitespace
+.clearspace {
+  clear: both;
+
+  &LG {
+    height: $whitespace*10;
+  }
+
+  &SM {
+    height: $whitespace;
+  }
+}
+
+//text alignements
+$alignments: left, center, right;
+@each $align in $alignments {
+  .text--#{$align} {
+    text-align: $align;
+  }
+}
+
+// headings
+@for $i from 1 through 6 {
+  h#{$i} {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+h1 {
+  @include makeRem(70);
+}
+
+h3 {
+  @include makeRem(60);
+  @include media-breakpoint-down(sm) {
+    font-size: 3.2rem;
+  }
+}
+
+span {
+  @include makeRem(17);
+}
+
+p {
+  @include makeRem(12);
+}
+
+h3 {
+  margin: 10px 0 35px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #195C50;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+section{
+  transition:all 1s;
+  &.hide{
+    opacity: 0;
+    transition:all 1s;
+  }
+}
+
+#about {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.description {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 0 40px;
+  text-align: right;
+  align-items: flex-end;
+  @include media-breakpoint-down(sm) {
+    width: 90%;
+  }
+}
+
+.title {
+  font-family: $font-secondary;
+  font-size: 6.5rem;
+  margin-bottom: 35px;
+}
+
+.desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  line-height: 1.2;
+  max-width: 1400px;
+
+  @include media-breakpoint-down(sm) {
+    font-size: 3rem;
+  }
+
+  &-small {
+    font-size: 2.5rem;
+    width: 70%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
+
+    @include media-breakpoint-down(sm) {
+      font-size: 3rem;
+      width: 100%;
+    }
+  }
+}
