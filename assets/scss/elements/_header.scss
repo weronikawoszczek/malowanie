@@ -115,22 +115,23 @@
   position: fixed;
   right: 0;
   top: 100px;
-  width: 280px;
+  width: 300px;
   min-height: 400px;
   z-index: 95;
-  background: rgba(0, 0, 0, .4);
+  //background-image: linear-gradient(to bottom, rgba(0, 0, 0, .4) , yellow);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .4) , rgba(0, 0, 0, 0));
+
   padding: 40px 20px;
-  font-size: 2.4rem;
+  letter-spacing: 2px;
   transform: translate(100%, 0);
   opacity: 0;
   ul{
-    margin: 0;
+    margin: 40px 0 0 10px;
     padding: 0;
-    margin-top: 30px;
     @include animate;
   }
   li {
-    margin-bottom: 10px;
+    margin-bottom: 26px;
     display: block;
   }
 
@@ -139,12 +140,12 @@
     align-items: center;
     font-weight: 400;
     color: white;
-    font-size: 3rem;
+    font-size: 2.2rem;
     &:before {
       content: "";
       display: block;
       width: 20px;
-      height: 3px;
+      height: 1px;
       margin-right: 10px;
       background: transparent;
       @include animate;
@@ -160,7 +161,7 @@
         content: "";
         display: block;
         width: 32px;
-        height: 3px;
+        height: 1px;
         margin-right: 10px;
         background: #fff;
         @include animate;

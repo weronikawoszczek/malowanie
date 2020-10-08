@@ -5,13 +5,20 @@ app.common = {
         $('.nav-icon1').click(function(){
             $(this).toggleClass('open');
             $('.topMenu').toggleClass('opened');
-            $('section').toggleClass('hide');
-            // $('section').toggleClass('hide');
+            $('.description').toggleClass('hidden');
         });
 
         $('.nav-el').on('click', function(e) {
             $('.nav-el').removeClass('active');
             $(this).addClass('active');
+        });
+
+        $('.text-carousel').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 2000
         });
     }
 }
