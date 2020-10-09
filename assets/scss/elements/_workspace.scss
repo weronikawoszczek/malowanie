@@ -2,12 +2,14 @@
   height: 100vh;
   padding: 0;
   display: flex;
+
   &-light {
     background-color: $bg-color;
     height: calc(100vh - 100px);
     margin-top: 100px;
     padding-top: 20px;
   }
+
   @include media-breakpoint-down(sm) {
     flex-direction: column;
     height: auto;
@@ -25,8 +27,9 @@
     overflow: hidden;
     z-index: 10000;
 
-    &.mono-block{
+    &.mono-block {
       filter: grayscale(100%);
+
       &:hover {
         filter: grayscale(0%);
         transition: all .4s ease-in-out;
@@ -37,11 +40,44 @@
       filter: grayscale(0%) !important;
       width: 100%;
       min-height: 50vh;
+      .arrow-move {
+        &.arrow__left {
+          -webkit-animation: linear infinite;
+          -webkit-animation-name: move-left;
+          -webkit-animation-duration: 2.3s;
+        }
+
+        &.arrow__right {
+          -webkit-animation: linear infinite;
+          -webkit-animation-name: move-right;
+          -webkit-animation-duration: 2.3s;
+        }
+      }
+      &.with-click{
+        .click {
+          display: block;
+          position: absolute;
+          top: 50%;
+          transform: translate(0, -50%);
+          color: white;
+          font-size: 17px;
+          padding-top: 5px;
+          letter-spacing: 1px;
+
+          -webkit-animation: linear infinite;
+          -webkit-animation-name: click;
+          -webkit-animation-duration: 2.3s;
+        }
+      }
     }
 
     &-left {
       background: url(../img/weselne.jpg) no-repeat center center;
       background-size: cover;
+
+      .click{
+        right: 5px;
+      }
 
       &:hover {
         .arrow__left {
@@ -55,6 +91,10 @@
     &-right {
       background: url(../img/rurka2.jpg) no-repeat center center;
       background-size: cover;
+
+      .click{
+        left: 5px;
+      }
 
       &:hover {
         .arrow__right {
@@ -95,6 +135,7 @@
           left: 18%;
           transform: rotate(20deg);
         }
+
         &::after {
           content: '';
           color: #fff;
@@ -112,28 +153,32 @@
         }
       }
     }
-    &-contact{
+
+    &-contact {
       text-align: center;
       padding-top: 3vw;
       border-right: 1px solid rgba(255, 255, 255, .4);
       cursor: default;
-      p{
+
+      p {
         margin: 0 auto;
         font-size: 2.5rem;
         line-height: 1.6;
         display: flex;
         flex-direction: column;
-        text-shadow: 2px 3px 6px rgba(121,106,86,.5);
+        text-shadow: 2px 3px 6px rgba(121, 106, 86, .5);
         max-width: 460px;
         padding: 40px 30px;
       }
-      a{
+
+      a {
         font-size: 2rem;
         display: flex;
         align-items: center;
         margin-bottom: 10px;
         text-decoration: none;
       }
+
       i {
         margin-right: 5px;
         width: 30px;
@@ -145,83 +190,16 @@
     }
   }
 
-  &__social-box {
-    display: none;
-    height: 100%;
-    position: relative;
-
-    &.active {
-      display: block
-    }
-
-    .social-el {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  }
-
-  .social-media {
-    position: absolute;
-    top: 100px;
-    right: -30px;
-    list-style-type: none;
-    z-index: 200;
-
-    li {
-      color: #fff;
-      height: 50px;
-      cursor: pointer;
-      will-change: transform;
-      transition: transform .4s ease-out;
-      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-
-      &.active {
-        transform: translate(-60%, 0);
-      }
-
-      &:hover {
-        transform: translate(-60%, 0);
-      }
-    }
-  }
-
   &__container {
     display: flex;
     @include media-breakpoint-down(sm) {
       align-items: center;
     }
   }
+}
 
-  .slick-arrow {
-    position: absolute;
-    z-index: 250;
-    bottom: 25px;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border: 0;
-    @include media-breakpoint-down(sm) {
-      display: none;
-    }
-
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.2);
-    }
-
-    &.slick-prev {
-      right: 80px;
-    }
-
-    &.slick-next {
-      right: 40px;
-    }
-  }
-
-  .slick-list, .slick-track, .slick-slide > div {
-    height: 100%;
-  }
+.click {
+  opacity: 0;
 }
 
 .arrow {
@@ -250,11 +228,11 @@
 
 @-webkit-keyframes move-left {
   0% {
-    right: 0%;
+    right: 0;
     opacity: .4;
   }
   30% {
-    right: 0%;
+    right: 0;
     opacity: .3;
   }
   65% {
@@ -262,18 +240,18 @@
     opacity: 0;
   }
   100% {
-    right: 0%;
+    right: 0;
     opacity: .4;
   }
 }
 
 @-webkit-keyframes move-right {
   0% {
-    left: 0%;
+    left: 0;
     opacity: .4;
   }
   30% {
-    left: 0%;
+    left: 0;
     opacity: .3;
   }
   65% {
@@ -281,8 +259,23 @@
     opacity: 0;
   }
   100% {
-    left: 0%;
+    left: 0;
     opacity: .4;
+  }
+}
+
+@-webkit-keyframes click {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  65% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
