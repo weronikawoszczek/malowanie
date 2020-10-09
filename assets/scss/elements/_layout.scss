@@ -4,8 +4,8 @@ html {
 
 body {
   font-size: $baseSize+px;
-  font-family: $font-main;
-  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4);
+  font-family: $font-third;
+  //text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4);
   color: $main;
   //background: url(../img/bgbg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -25,6 +25,37 @@ body {
   background: url(../img/weselne-bg.jpg) no-repeat center center fixed;
   background-size: cover;
   padding-top: 100px;
+
+  &.shadow-bg {
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100vw;
+      height: 90vh;
+      background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    }
+  }
+
+  &.mono-bg {
+    overflow: hidden;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 100px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+  }
 }
 
 .page-limiter-mal {
@@ -47,83 +78,25 @@ img {
 
 // links
 a {
-  //color: $aux-darker;
   text-decoration: none;
-  //@include makeRem(15);
-  //@include animate;
+  color: $main--light;
+  @include animate;
 
   &:hover, &:focus, &:active {
-    color: $main--light;
+    color: $aux-dark;
     @include animate;
-    text-decoration: none;
   }
 }
 
-// whitespace
-.clearspace {
-  clear: both;
-
-  &LG {
-    height: $whitespace*10;
-  }
-
-  &SM {
-    height: $whitespace;
-  }
-}
-
-//text alignements
-$alignments: left, center, right;
-@each $align in $alignments {
-  .text--#{$align} {
-    text-align: $align;
-  }
-}
-
-// headings
-@for $i from 1 through 6 {
-  h#{$i} {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-h1 {
-  @include makeRem(70);
-}
-
-h3 {
-  @include makeRem(60);
-  @include media-breakpoint-down(sm) {
-    font-size: 3.2rem;
-  }
-}
-
-span {
-  @include makeRem(17);
-}
-
-p {
-  @include makeRem(12);
-}
-
-h3 {
-  margin: 10px 0 35px;
-  text-transform: uppercase;
-  letter-spacing: 8px;
-  color: #195C50;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
-
-.description{
+.description {
   &.shown {
     visibility: visible;
     opacity: 1;
     transition: opacity 1s, visibility 1.3s;
   }
-  &.hidden{
-    visibility:hidden;
+
+  &.hidden {
+    visibility: hidden;
     opacity: 0;
     transition: opacity 1s, visibility 1.3s;
   }
@@ -135,16 +108,14 @@ h3 {
   width: 100vw;
 }
 
-.description {
+.desc-wrapper {
   margin: 30px 10vw 0 0;
   display: flex;
   flex-direction: column;
   width: 100%;
   text-align: right;
   align-items: flex-end;
-  @include media-breakpoint-down(sm) {
-    width: 90%;
-  }
+  z-index: 10000;
 }
 
 .title {
@@ -157,28 +128,70 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   margin-bottom: 20px;
-  line-height: 1.2;
-  max-width: 1400px;
+  line-height: 1.5;
+  max-width: 648px;
 
   @include media-breakpoint-down(sm) {
     font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, .7);
   }
 
-  &-small {
-    font-size: 2.5rem;
-    width: 70%;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
+  .accent {
+    color: $accent-light;
+    font-weight: bold;
+  }
+}
 
+.text-carousel {
+  @include media-breakpoint-down(sm) {
+    width: 90%;
+  }
+}
+
+.slick-list {
+  width: 45vw;
+  height: 500px;
+  @include media-breakpoint-down(sm) {
+    width: 85vw;
+  }
+}
+
+.contact-title {
+  line-height: 1.6;
+  font-size: 9rem;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  font-family: $font-secondary;
+  position: relative;
+  margin-bottom: 6vw;
+  @include media-breakpoint-down(sm) {
+    font-size: 5.5rem;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+  }
+
+  &::after {
+    content: '';
+    width: 20%;
+    height: 1px;
+    position: absolute;
+    bottom: -45%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: $aux-light;
+    display: block;
     @include media-breakpoint-down(sm) {
-      font-size: 3rem;
-      width: 100%;
+      bottom: -50%;
     }
   }
 }
 
-.slick-list{
-  width: 45vw;
-  height: 500px;
+.footer{
+  color: #A6CACA;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
 }

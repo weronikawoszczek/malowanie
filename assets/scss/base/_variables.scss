@@ -3,17 +3,22 @@ $main--light: 		#F6F6F6;
 $main--light-darker: darken($main--light, 20%);
 $main--dark: 		#10352d;
 
-$aux: rgba(212, 189, 78, 0.9);
+$aux: 				#0A92A5;
 $aux-darker:		darken($aux, 20%);
-$aux-dark: 			darken($aux, 35%);
-$aux-light: 		lighten($aux, 10%);
+$aux-dark: 			rgba(10, 132, 150, 0.69);
+$aux-light: 		rgba(10, 146, 145, 0.5);
 
-$accent: 			rgba(130, 180, 139, 0.8);
-$accent-light: 		rgba(130, 180, 139, 0.4);
-$accent-dark: 		rgb(130, 180, 139);
-$accent-vivid: 		rgba(171, 233, 187, 0.8);
+$accent: 			rgba(11, 186, 209, 0.78);
+$accent-light: 		lighten($accent, 10%);
+$accent-dark: 		darken($accent, 20%);
+$accent-vivid: 		lighten($accent, 30%);
 
-$desktop-width: 400px;
+$header-color: 		rgba(59, 128, 131, 0.96);
+$bg-color: 			#b4b0a1;
+$bg-color-light: 		lighten($bg-color, 30%);
+
+
+//$desktop-width: 400px;
 $sm-width: 		250px;
 
 @font-face {
@@ -48,11 +53,10 @@ $sm-width: 		250px;
 
 $font-main:		'David', Helvetica, Arial, sans-serif;
 $font-secondary:  'Scriptina', Helvetica, Arial, sans-serif;
-//$font-secondary:  'GloberRegular', Helvetica, Arial, sans-serif;
 $font-third:      'GloberBook', Helvetica, Arial, sans-serif;
 
 
-$baseSize: 			16; 
+$baseSize: 			16;
 $whitespace:		30px;
 
 // Mixins

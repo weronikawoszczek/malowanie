@@ -5,7 +5,7 @@ app.common = {
         $('.nav-icon1').click(function(){
             $(this).toggleClass('open');
             $('.topMenu').toggleClass('opened');
-            $('.description').toggleClass('hidden');
+            $('.desc-wrapper').toggleClass('hidden');
         });
 
         $('.nav-el').on('click', function(e) {
@@ -18,7 +18,7 @@ app.common = {
             slidesToScroll: 1,
             infinite: true,
             autoplay: true,
-            autoplaySpeed: 2000
+            autoplaySpeed: 5000
         });
     }
 }
