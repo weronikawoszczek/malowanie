@@ -146,7 +146,7 @@
 
   @include media-breakpoint-down(sm) {
     width: 100%;
-    padding-top: 40%;
+    padding: 40% 20px 20% 20px;
   }
 
   ul {
