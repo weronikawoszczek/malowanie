@@ -35,8 +35,11 @@ body {
       text-align: left;
       color: rgb(121,106,86);
       margin-top: 25vh;
+      @media (max-width: 1200px){
+        margin-top: 30vh;
+      }
       @include media-breakpoint-down(sm) {
-        margin-top: 20px;
+        margin-top: 27vh;
         color: rgb(105, 91, 72);
         .title{
           text-shadow: 1px 1px 1px rgba(121,106,86,.3);
@@ -172,7 +175,8 @@ a {
     width: 50vw;
   }
   @include media-breakpoint-down(sm) {
-    width: 85vw;
+    width: 75vw;
+    height: 100%;
   }
 }
 
