@@ -3,13 +3,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
           rel="stylesheet"/>
     <link rel="stylesheet" href="./dist/assets/css/main.min.css">
     <link rel="icon" href="../../dist/assets/img/favicon.png">
-    <script src="https://kit.fontawesome.com/241cd5ebad.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <script>
         app = {}
     </script>
@@ -19,7 +20,8 @@
 
 <div class="header">
     <div class="container">
-        <a href="/" class="logo"><img src="./dist/assets/img/logo.png" alt="Rysowanie Cieniem" class="logo-image"></a>
+        <a href="/" class="logo"><img src="./dist/assets/img/logo.png" alt="Rysowanie Cieniem"
+                                      class="logo-image"></a>
         <div class="menuBtnContainer">
             <button class="menuToggle nav-icon1">
                 <span></span>
@@ -30,41 +32,48 @@
     </div>
     <div class="topMenu">
         <ul>
-            <li><a href="/portfolio.html" class="nav-el">Portfolio</a></li>
-            <li><a href="/about.html" class="nav-el">O mnie</a></li>
-            <li><a href="/offer.html" class="nav-el">Oferta</a></li>
-            <li><a href="/contact.html" class="nav-el">Kontakt</a></li>
-            <li><a href="/index.html" class="nav-el">Strona główna</a></li>
+            <li><a href="./malowanie.html" class="nav-el">O mnie</a></li>
+            <li><a href="./contactm.html" class="nav-el">Oferta</a></li>
+            <li><a href="./contactm.html" class="nav-el">Kontakt</a></li>
+            <li><a href="./index.html" class="nav-el">Strona główna</a></li>
+            <li><a href="./portfoliom.html" class="nav-el">Portfolio</a></li>
         </ul>
+        <div class="footer footer-mal">
+            &copy; Copyright 2020 All Rights Reserved<br>
+            Weronika Woszczek
+        </div>
     </div>
 </div>
 
-<div class="page-limiter-mal">
-    <section id="about">
-        <div class="description">
+<div class="page-limiter page-limiter-mal shadow-bg">
+    <section id="about" class="section">
+        <div class="desc-wrapper">
             <span class="title">O mnie</span>
             <div class="text-carousel">
                 <div class="desc">
                     Na gali finałowej Miss Polski Dolnego Śląska 2012 usłyszałem na swój temat: "Młody pasjonat
-                    Malowania
-                    Światłem. Zaklinacz kobiecego piękna na fotograficznej kliszy." - bardzo mi się to spodobało ;)
+                    <span class="accent">Malowania
+                    Światłem</span>. Zaklinacz kobiecego piękna na fotograficznej kliszy." - bardzo mi się to
+                    spodobało ;)
                 </div>
                 <div class="desc">
-                    Od wczesnych lat szkolnych ciekawiło mnie jak uwiecznić chwile z naszego życia. Dla mnie fotografia
-                    to nieustanne wyzwanie dające mi wiele przyjemnoŚci. Serdecznie zapraszam do współpracy!
+                    Zdjęcia od Malowanie Światłem zawsze zaskakują i dają mnóstwo radości! Wspaniały fotograf i profesjonalista, a do tego przemiły człowiek :)
+                    Zawsze potrafi uchwycić tę najważniejszą oraz wydobyć z niej wszystko co najlepsze.
+                    Do tego poczucie humoru i zawsze dużo uśmiechu – chyba nie da się chcieć więcej!
+                </div>
+                <div class="desc">
+                    Od wczesnych lat szkolnych ciekawiło mnie, jak uwiecznić chwile z naszego życia. Dla mnie fotografia
+                    to nieustanne wyzwanie dające mi wiele przyjemności. Serdecznie zapraszam do współpracy!
                 </div>
             </div>
         </div>
     </section>
-    <section id="offer">
-
-    </section>
-
 </div>
 
 <script src="./dist/assets/js/libs/jquery.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
 <script src="./dist/assets/js/common.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
 </body>
 
 </html>
