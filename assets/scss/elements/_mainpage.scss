@@ -2,14 +2,6 @@
   height: 100vh;
   padding: 0;
   display: flex;
-
-  &-light {
-    background-color: $bg-color;
-    height: calc(100vh - 100px);
-    margin-top: 100px;
-    padding-top: 20px;
-  }
-
   @include media-breakpoint-down(sm) {
     flex-direction: column;
     height: auto;
@@ -22,62 +14,25 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    filter: grayscale(100%);
     cursor: pointer;
     transition: all .2s ease-in-out;
     overflow: hidden;
-    z-index: 10000;
+    font-family: $font-secondary;
 
-    &.mono-block {
-      filter: grayscale(100%);
-
-      &:hover {
-        filter: grayscale(0%);
-        transition: all .4s ease-in-out;
-      }
+    &:hover {
+      filter: grayscale(0%);
+      transition: all .4s ease-in-out;
     }
 
-    @media (max-width: 1025px) {
-      filter: grayscale(0%) !important;
+    @include media-breakpoint-down(sm) {
       width: 100%;
-      min-height: 50vh;
-      .arrow-move {
-        &.arrow__left {
-          -webkit-animation: linear infinite;
-          -webkit-animation-name: move-left;
-          -webkit-animation-duration: 2.3s;
-        }
-
-        &.arrow__right {
-          -webkit-animation: linear infinite;
-          -webkit-animation-name: move-right;
-          -webkit-animation-duration: 2.3s;
-        }
-      }
-      &.with-click{
-        .click {
-          display: block;
-          position: absolute;
-          top: 50%;
-          transform: translate(0, -50%);
-          color: white;
-          font-size: 17px;
-          padding-top: 5px;
-          letter-spacing: 1px;
-
-          -webkit-animation: linear infinite;
-          -webkit-animation-name: click;
-          -webkit-animation-duration: 2.3s;
-        }
-      }
+      height: 50vh;
     }
 
     &-left {
       background: url(../img/weselne.jpg) no-repeat center center;
       background-size: cover;
-
-      .click{
-        right: 5px;
-      }
 
       &:hover {
         .arrow__left {
@@ -89,12 +44,8 @@
     }
 
     &-right {
-      background: url(../img/rurka3.jpg) no-repeat center center;
+      background: url(../img/rurka2.jpg) no-repeat center center;
       background-size: cover;
-
-      .click{
-        left: 5px;
-      }
 
       &:hover {
         .arrow__right {
@@ -110,16 +61,15 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -55%);
-      font-size: 8rem;
-      text-align: center;
-      line-height: 1.3;
-      letter-spacing: 6px;
-      text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.6);
+      line-height: 1.6;
+      font-size: 9rem;
+      letter-spacing: 2px;
+      text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4);
       color: $main;
-      font-family: $font-secondary;
       @include media-breakpoint-down(sm) {
         font-size: 5.5rem;
         letter-spacing: 4px;
+        text-shadow: 2px 3px 4px rgba(0,0,0,.5);
       }
 
       &-line {
@@ -128,65 +78,70 @@
           color: #fff;
           z-index: 1000;
           display: block;
-          height: 15px;
+          height: 25px;
           width: 2px;
           position: absolute;
           background-color: white;
-          top: 67%;
-          left: 13%;
+          top: 58%;
+          left: 18%;
           transform: rotate(20deg);
         }
-
         &::after {
           content: '';
           color: #fff;
           z-index: 1000;
           display: block;
-          width: 2px;
+          width: 1px;
           position: absolute;
-          height: 10px;
+          height: 8px;
           background-color: white;
-          top: 75%;
-          right: 34%;
+          top: 79%;
+          right: 46%;
           -webkit-transform: rotate(45deg);
           /* z-index: 10000; */
           transform: rotate(75deg);
         }
       }
     }
+  }
 
-    &-contact {
-      text-align: center;
-      padding-top: 3vw;
-      border-right: 1px solid rgba(255, 255, 255, .4);
-      cursor: default;
+  &__social-box {
+    display: none;
+    height: 100%;
+    position: relative;
 
-      p {
-        margin: 0 auto;
-        font-size: 2.5rem;
-        line-height: 1.6;
-        display: flex;
-        flex-direction: column;
-        text-shadow: 2px 3px 6px rgba(121, 106, 86, .5);
-        max-width: 460px;
-        padding: 40px 30px;
+    &.active {
+      display: block
+    }
+
+    .social-el {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .social-media {
+    position: absolute;
+    top: 100px;
+    right: -30px;
+    list-style-type: none;
+    z-index: 200;
+
+    li {
+      color: #fff;
+      height: 50px;
+      cursor: pointer;
+      will-change: transform;
+      transition: transform .4s ease-out;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+
+      &.active {
+        transform: translate(-60%, 0);
       }
 
-      a {
-        font-size: 2rem;
-        display: flex;
-        align-items: center;
-        margin-bottom: 10px;
-        text-decoration: none;
-      }
-
-      i {
-        margin-right: 5px;
-        width: 30px;
-        display: block;
-        padding-bottom: 5px;
-        font-size: 2.5rem;
-
+      &:hover {
+        transform: translate(-60%, 0);
       }
     }
   }
@@ -197,10 +152,36 @@
       align-items: center;
     }
   }
-}
 
-.click {
-  opacity: 0;
+  .slick-arrow {
+    position: absolute;
+    z-index: 250;
+    bottom: 25px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 0;
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    &.slick-prev {
+      right: 80px;
+    }
+
+    &.slick-next {
+      right: 40px;
+    }
+  }
+
+  .slick-list, .slick-track, .slick-slide > div {
+    height: 100%;
+  }
 }
 
 .arrow {
@@ -229,11 +210,11 @@
 
 @-webkit-keyframes move-left {
   0% {
-    right: 0;
+    right: 0%;
     opacity: .4;
   }
   30% {
-    right: 0;
+    right: 0%;
     opacity: .3;
   }
   65% {
@@ -241,18 +222,18 @@
     opacity: 0;
   }
   100% {
-    right: 0;
+    right: 0%;
     opacity: .4;
   }
 }
 
 @-webkit-keyframes move-right {
   0% {
-    left: 0;
+    left: 0%;
     opacity: .4;
   }
   30% {
-    left: 0;
+    left: 0%;
     opacity: .3;
   }
   65% {
@@ -260,23 +241,8 @@
     opacity: 0;
   }
   100% {
-    left: 0;
+    left: 0%;
     opacity: .4;
-  }
-}
-
-@-webkit-keyframes click {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 0;
-  }
-  65% {
-    opacity: .9;
-  }
-  100% {
-    opacity: 0;
   }
 }
 

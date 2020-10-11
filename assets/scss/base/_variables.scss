@@ -51,8 +51,27 @@ $sm-width: 		250px;
 	src: url('./../fonts/DavidLibre-Regular.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: 'Think';
+	font-display: swap;
+	src: url('./../fonts/Think.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Mrs';
+	font-display: swap;
+	src: url('./../fonts/Mrs.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Parisienne';
+	font-display: swap;
+	src: url('./../fonts/Parisienne.ttf') format('truetype');
+}
+
 $font-main:		'David', Helvetica, Arial, sans-serif;
-$font-secondary:  'Scriptina', Helvetica, Arial, sans-serif;
+//$font-secondary:  'Scriptina', Helvetica, Arial, sans-serif;
+$font-secondary:  'Parisienne', Helvetica, Arial, sans-serif;
 $font-third:      'GloberBook', Helvetica, Arial, sans-serif;
 
 
