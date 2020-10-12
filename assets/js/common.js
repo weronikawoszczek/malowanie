@@ -2,6 +2,13 @@ app.common = {
     mainInit: () => {
         let text = 'ES6 is working';
 
+        $('html').click(function() {
+            if ($('.topMenu').hasClass('opened')) {
+                console.log("opened");
+                // $('.topMenu').removeClass('opened');
+            }
+        });
+
         $('.nav-icon1').click(function(){
             $(this).toggleClass('open');
             $('.topMenu').toggleClass('opened');
@@ -11,10 +18,6 @@ app.common = {
         $('.nav-el').on('click', function(e) {
             $('.nav-el').removeClass('active');
             $(this).addClass('active');
-        });
-
-        $('html').click(function() {
-            $('.topMenu').removeClass('opened');
         });
 
             $('.text-carousel').slick({
