@@ -42,7 +42,6 @@
     @media (max-width: 1025px) {
       filter: grayscale(0%) !important;
       width: 100%;
-      min-height: 50vh;
       .arrow-move {
         &.arrow__left {
           -webkit-animation: linear infinite;
@@ -74,7 +73,11 @@
       }
     }
 
-    &-left {
+    @include media-breakpoint-down(sm) {
+      min-height: 50%;
+    }
+
+      &-left {
       background: url(../img/weselne.jpg) no-repeat center center;
       background-size: cover;
 
