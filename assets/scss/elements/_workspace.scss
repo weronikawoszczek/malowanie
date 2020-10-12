@@ -176,8 +176,9 @@
       cursor: default;
 
       @include media-breakpoint-down(sm) {
-        min-height: 50% !important;
+        //min-height: 50% !important;
         border-right: none;
+        height: auto;
       }
 
       p {
@@ -188,7 +189,7 @@
         flex-direction: column;
         text-shadow: 2px 3px 6px rgba(121, 106, 86, .5);
         max-width: 460px;
-        padding: 4vw 30px;
+        padding: 4vw 33px;
         @include media-breakpoint-down(sm) {
           font-size: 2.15rem;
           padding: 6vw 30px 4vw;
