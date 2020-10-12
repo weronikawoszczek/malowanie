@@ -196,6 +196,7 @@ a {
   letter-spacing: 2px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   font-family: $font-secondary;
+  color: $aux;
   position: relative;
   padding: 3.5vw 0;
   @include media-breakpoint-down(sm) {
