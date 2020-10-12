@@ -20,13 +20,22 @@ body {
   align-items: center;
   position: relative;
   min-height: 100vh;
-  background: url(../img/weselne-bg.jpg) no-repeat center center fixed;
-  background-size: cover;
   padding-top: 100px;
 
-  &.page-limiter-mal {
+  &-rys{
+    background: url(../img/weselne-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+  }
+
+  &-mal {
     background: url(../img/rurka-bg2.jpg) no-repeat center center fixed;
     background-size: cover !important;
+    -moz-background-size: cover !important;
+    -webkit-background-size: cover !important;
+    -o-background-size: cover !important;
     .title{
       color: #DDB381;
     }
