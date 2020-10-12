@@ -25,7 +25,8 @@
     flex-direction: column;
     padding-top: 100px;
     min-height: 100vh;
-    background-image: linear-gradient(to top, #525252, $aux-dark);
+    background-color: #000;
+    //background-image: linear-gradient(to top, #525252, $aux-dark);
   }
 
   &__row {
