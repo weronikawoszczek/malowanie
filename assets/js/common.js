@@ -13,7 +13,11 @@ app.common = {
             $(this).addClass('active');
         });
 
-        $('.text-carousel').slick({
+        $('html').click(function() {
+            $('.topMenu').removeClass('opened');
+        });
+
+            $('.text-carousel').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
