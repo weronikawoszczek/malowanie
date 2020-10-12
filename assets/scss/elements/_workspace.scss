@@ -42,6 +42,8 @@
     @media (max-width: 1025px) {
       filter: grayscale(0%) !important;
       width: 100%;
+      min-height: 50vh;
+
       .arrow-move {
         &.arrow__left {
           -webkit-animation: linear infinite;
@@ -73,10 +75,6 @@
       }
     }
 
-    @include media-breakpoint-down(sm) {
-      min-height: 50%;
-    }
-
       &-left {
       background: url(../img/weselne.jpg) no-repeat center center;
       background-size: cover;
@@ -105,6 +103,8 @@
 
       .click {
         left: 5px;
+        color: black !important;
+        text-shadow: 2px 2px 5px rgba(255, 255, 255, 1);
       }
 
       &:hover {
@@ -176,7 +176,7 @@
       cursor: default;
 
       @include media-breakpoint-down(sm) {
-        //min-height: 0 !important;
+        min-height: 50% !important;
         border-right: none;
         margin-bottom: 20px;
       }
