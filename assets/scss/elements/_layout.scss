@@ -161,7 +161,7 @@ a {
   line-height: 1.5;
 
   @include media-breakpoint-down(sm) {
-    font-size: 2.3rem;
+    font-size: 2rem;
     padding: 0 10px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, .7);
   }
@@ -174,7 +174,7 @@ a {
 
 .text-carousel {
   @include media-breakpoint-down(sm) {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -185,7 +185,7 @@ a {
     width: 50vw;
   }
   @include media-breakpoint-down(sm) {
-    width: 75vw;
+    width: 80vw;
     height: 100%;
   }
 }
