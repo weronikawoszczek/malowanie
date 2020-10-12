@@ -2,19 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a2a7737-6d80-4824-8843-f86472745555" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Think.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/rurka3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/rurka4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/DancingScript-VariableFont_wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Herr.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Lea.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/MeieScript-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Mrs.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Parisienne-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Tangerine-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Think.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/rurka-bg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/rurka-bg2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/rurka3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/rurka4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/base/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/base/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/elements/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/elements/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/elements/_workspace.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/elements/_workspace.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/elements/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/elements/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/elements/_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/elements/_subpages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/elements/_subpages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/elements/_workspace.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contactm.html" beforeDir="false" afterPath="$PROJECT_DIR$/contactm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactm.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/Dancing.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/DancingScript-VariableFont_wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/Herr.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/Lea.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/MeieScript-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/Mrs.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/Parisienne-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/Parisienne.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/Tang.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/Tangerine-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/fonts/Think.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/rurka-bg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/rurka-bg2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/rurka3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/rurka4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/malowanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/malowanie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfoliom.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rysowanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/rysowanie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +70,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GV" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist/assets/fonts" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dist/assets/img" />
       <recent name="$PROJECT_DIR$/dist/assets/fonts" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/dist/assets/img" />
     </key>
   </component>
   <component name="RunDashboard">
