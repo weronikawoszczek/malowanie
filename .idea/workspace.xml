@@ -2,8 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a2a7737-6d80-4824-8843-f86472745555" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/elements/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/elements/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/elements/_workspace.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/elements/_workspace.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfoliom.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfoliom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,14 +58,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist/assets/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist/assets/img" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/assets/img" />
       <recent name="$PROJECT_DIR$/dist/assets/fonts" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/dist/assets/img" />
     </key>
   </component>
   <component name="RunDashboard">

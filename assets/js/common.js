@@ -39,12 +39,12 @@ app.common = {
 
 function checkScroll() {
     if( $(window).scrollTop() > 20 ) { //abuse 0 == false :)
-        if( !$('.topStripe').hasClass('scrolled') ) {
-            $('.topStripe').addClass('scrolled');
+        if( !$('.header-scroll').hasClass('scrolled') ) {
+            $('.header-scroll').addClass('scrolled');
         }
     } else {
-        if( $('.topStripe').hasClass('scrolled') ) {
-            $('.topStripe').removeClass('scrolled');
+        if( $('.header-scroll').hasClass('scrolled') ) {
+            $('.header-scroll').removeClass('scrolled');
         }
     }
 }
