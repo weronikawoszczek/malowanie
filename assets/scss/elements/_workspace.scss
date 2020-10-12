@@ -7,6 +7,12 @@
     background-color: $bg-color;
     height: calc(100vh - 100px);
     margin-top: 100px;
+
+    &__block {
+      @media (max-width: 1025px) {
+        min-height: auto;
+      }
+    }
   }
 
   @include media-breakpoint-down(sm) {
@@ -52,7 +58,7 @@
           -webkit-animation-duration: 2.3s;
         }
       }
-      &.with-click{
+      &.with-click {
         .click {
           display: block;
           position: absolute;
@@ -74,7 +80,7 @@
       background: url(../img/weselne.jpg) no-repeat center center;
       background-size: cover;
 
-      .click{
+      .click {
         right: 5px;
       }
 
@@ -89,13 +95,13 @@
 
     &-right {
       background: url(../img/rurka3.jpg) no-repeat center center;
-      background-size: 103%;
+      background-size: cover;
       @include media-breakpoint-down(sm) {
         background-size: 130%;
         background-position-y: 48%;
       }
 
-      .click{
+      .click {
         left: 5px;
       }
 
