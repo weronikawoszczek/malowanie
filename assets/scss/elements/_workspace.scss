@@ -7,7 +7,6 @@
     background-color: $bg-color;
     height: calc(100vh - 100px);
     margin-top: 100px;
-    padding-top: 20px;
   }
 
   @include media-breakpoint-down(sm) {
