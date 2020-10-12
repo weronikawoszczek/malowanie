@@ -1,18 +1,25 @@
 app.common = {
     mainInit: () => {
-        let text = 'ES6 is working';
+        // let text = 'ES6 is working';
 
-        $('html').click(function() {
-            if ($('.topMenu').hasClass('opened')) {
-                console.log("opened");
-                // $('.topMenu').removeClass('opened');
-            }
-        });
+        $('.nav-icon1').click(function(e){
 
-        $('.nav-icon1').click(function(){
+            e.preventDefault();
+            e.stopPropagation();
+
             $(this).toggleClass('open');
             $('.topMenu').toggleClass('opened');
             $('.desc-wrapper').toggleClass('hidden');
+
+            $(document).on('click', function closeMenu (e){
+                if($('.topMenu').hasClass('opened')){
+                    $('.topMenu').removeClass('opened');
+                    $('.menuToggle').removeClass('open');
+                } else {
+                    $(document).on('click', closeMenu);
+                    // $('.nav-el').removeClass('active');
+                }
+            });
         });
 
         $('.nav-el').on('click', function(e) {
