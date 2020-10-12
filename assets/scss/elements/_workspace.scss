@@ -11,7 +11,7 @@
 
   @include media-breakpoint-down(sm) {
     flex-direction: column;
-    height: auto;
+    height: 100%;
     min-height: 100vh;
   }
 
