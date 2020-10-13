@@ -24,10 +24,17 @@ app.common = {
             });
         });
 
-        $('.topMenu a').click(function(e) {
-            $('topMenu a').removeClass('checked');
-            $(this).addClass('checked');
+        $('.topMenu ul li a').each(function() {
+            if (this.href == window.location.href) {
+                $(this).toggleClass("checked");
+            }
         });
+
+
+        // $('.topMenu a').click(function() {
+        //     $('topMenu a').removeClass('checked');
+        //     $(this).addClass('checked');
+        // });
 
         $('.nav-el').on('click', function(e) {
             $('.nav-el').removeClass('active');
@@ -59,8 +66,14 @@ function checkScroll() {
 $(function () {
     $(document).ready(() => {
         app.common.mainInit();
+
+        // if (!document.hidden) {
+        //     var href = $(".topMenu a").attr("href").split('#')[1];;
+        // }
+
     })
 });
+
 
 $(window).on('scroll', function() {
     checkScroll();
