@@ -2,11 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a2a7737-6d80-4824-8843-f86472745555" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/rurka-bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/rurka3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/weselne-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/weselne.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/elements/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/elements/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/rurka-bg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/rurka-bg2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/rurka3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/rurka3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/weselne-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/weselne-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/weselne.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/weselne.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactm.html" beforeDir="false" afterPath="$PROJECT_DIR$/contactm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/rurka-bg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/rurka-bg2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/rurka3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/rurka3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/weselne-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/weselne-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/weselne.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/weselne.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/malowanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/malowanie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfoliom.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfoliom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rysowanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/rysowanie.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +80,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -38,6 +88,7 @@
       <recent name="$PROJECT_DIR$/assets/img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/dist/assets/img" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/dist/assets/fonts" />
