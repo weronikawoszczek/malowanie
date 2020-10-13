@@ -27,6 +27,9 @@
     min-height: 100vh;
     background-color: #161616;
     //background-image: linear-gradient(to top, #525252, $aux-dark);
+    &.light{
+      background-image: linear-gradient(to bottom, #e0cfcd, #826e72);
+    }
   }
 
   &__row {

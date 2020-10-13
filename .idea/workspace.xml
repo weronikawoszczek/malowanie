@@ -2,7 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a2a7737-6d80-4824-8843-f86472745555" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/10r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/11r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/12r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/13r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/14r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/15r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/16r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/17r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/18r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/19r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/1r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/20r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/21r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/22r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/23r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/24r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/25r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/26r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/27r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/28r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/2r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/3r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/4r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/5r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/6r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/7r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/8r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/9r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/10r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/11r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/12r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/13r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/14r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/15r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/16r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/17r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/18r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/19r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/1r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/20r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/21r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/22r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/23r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/24r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/25r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/26r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/27r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/28r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/2r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/3r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/4r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/5r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/6r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/7r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/8r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/9r.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/elements/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/elements/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/elements/_workspace.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/elements/_workspace.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolior.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolior.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +87,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist/assets/img" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -34,9 +95,9 @@
       <recent name="$PROJECT_DIR$/assets/img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/dist/assets/img" />
       <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/dist/assets/fonts" />
       <recent name="$PROJECT_DIR$" />
     </key>
