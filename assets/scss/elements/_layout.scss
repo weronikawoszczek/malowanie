@@ -60,14 +60,14 @@ a {
     .desc-wrapper {
       align-items: flex-start;
       text-align: left;
-      color: rgb(121,106,86);
+      color: rgb(133, 117, 95);
       margin-top: 25vh;
       @media (max-width: 1200px){
         margin-top: 30vh;
       }
       @include media-breakpoint-down(sm) {
         margin-top: 27vh;
-        color: rgb(105, 91, 72);
+        color: rgb(130, 113, 89);
         .title{
           text-shadow: 1px 1px 1px rgba(121,106,86,.3);
         }
