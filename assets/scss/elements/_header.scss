@@ -34,8 +34,8 @@
   &-scroll {
     &.scrolled {
       opacity: .9;
-      padding: 25px 0;
-
+padding-top: 25px;
+padding-bottom: 25px;
       img {
         width: 200px;
       }
@@ -163,7 +163,7 @@
 
   @include media-breakpoint-down(sm) {
     width: 100%;
-    padding: 40% 20px 20% 20px;
+    padding: 30% 20px 20% 20px;
   }
 
   ul {
