@@ -46,6 +46,7 @@
       @media (max-width: 600px) {
       justify-content: center;
       align-items: center;
+        margin-bottom: 15px;
     }
 
       img{
@@ -58,6 +59,12 @@
       }
       @media (max-width: 600px){
         width: 90%;
+      }
+    }
+
+    &.light{
+      img{
+        border: 2px solid #e2e2e2;
       }
     }
   }
