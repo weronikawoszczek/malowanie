@@ -15,6 +15,8 @@ app.common = {
                 if($('.topMenu').hasClass('opened')){
                     $('.topMenu').removeClass('opened');
                     $('.menuToggle').removeClass('open');
+                    $('.desc-wrapper').removeClass('hidden');
+
                 } else {
                     $(document).on('click', closeMenu);
                     // $('.nav-el').removeClass('active');
