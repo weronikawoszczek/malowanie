@@ -157,6 +157,10 @@
     box-shadow: -7px 0 15px -8px rgba(0, 0, 0, .65)
   }
 
+  &-portfolio{
+    background-image: linear-gradient(to bottom, #a7a7a7, #161616);
+  }
+
   @include media-breakpoint-down(sm) {
     width: 100%;
     padding: 40% 20px 20% 20px;

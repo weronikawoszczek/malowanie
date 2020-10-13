@@ -35,10 +35,10 @@
     max-width: 100vw;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 2.4%;
+    padding: 0 0 2.4% 2.4%;
 
     @media (max-width: 1000px) {
-      padding-left: 3.3%;
+      padding: 0 0 3.3% 3.3%;
     }
       @media (max-width: 600px) {
       justify-content: center;
@@ -47,11 +47,11 @@
 
       img{
       width: 22%;
-      margin: 2.4% 2.4% 2.4% 0;
+      margin: 2.4% 2.4% 0 0;
       border: 2px solid $main--light;
       @media (max-width: 1000px){
         width: 45%;
-        margin: 3.3% 3.3% 3.3% 0;
+        margin: 3.3% 3.3% 0 0;
       }
       @media (max-width: 600px){
         width: 90%;
