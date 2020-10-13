@@ -180,13 +180,11 @@ a {
 
 .slick-list {
   width: 40vw;
-  height: 500px;
   @media (max-width: 1200px){
     width: 50vw;
   }
   @include media-breakpoint-down(sm) {
     width: 80vw;
-    height: 100%;
   }
 }
 
@@ -243,5 +241,25 @@ a {
 
   @include media-breakpoint-down(sm) {
     font-size: 1.2rem;
+  }
+}
+
+.footer-sign{
+  font-size: 1.15rem;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 2vw;
+  right: auto;
+  left: auto;
+  color: $aux;
+  opacity: .6;
+  z-index: 100;
+
+  @include media-breakpoint-down(sm) {
+    bottom: 10px;
+  }
+
+    &-mal{
+    color: #b0895b;
   }
 }
