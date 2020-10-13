@@ -19,7 +19,7 @@
     min-height: 100vh;
   }
 
-  &-fullheight{
+  &-fullheight {
     height: auto;
     width: 100vw;
     flex-direction: column;
@@ -27,7 +27,7 @@
     min-height: 100vh;
     background-color: #161616;
     //background-image: linear-gradient(to top, #525252, $aux-dark);
-    &.light{
+    &.light {
       background-image: linear-gradient(to bottom, #e0cfcd, #826e72);
     }
   }
@@ -43,27 +43,34 @@
     @media (max-width: 1000px) {
       padding: 0 0 3.3% 3.3%;
     }
-      @media (max-width: 600px) {
+    @media (max-width: 600px) {
       justify-content: center;
       align-items: center;
-        margin-bottom: 15px;
+      margin-bottom: 15px;
     }
 
-      img{
+    img {
       width: 22%;
       margin: 2.4% 2.4% 0 0;
       border: 2px solid $main--light;
-      @media (max-width: 1000px){
+      @include animate;
+
+      &:hover {
+        box-shadow: 0 0px 2px 1px #fff;
+        @include animate;
+      }
+
+      @media (max-width: 1000px) {
         width: 45%;
         margin: 3.3% 3.3% 0 0;
       }
-      @media (max-width: 600px){
+      @media (max-width: 600px) {
         width: 90%;
       }
     }
 
-    &.light{
-      img{
+    &.light {
+      img {
         border: 2px solid #e2e2e2;
       }
     }
@@ -125,7 +132,7 @@
       }
     }
 
-      &-left {
+    &-left {
       background: url(../img/weselne.jpg) no-repeat center center;
       background-size: cover;
 

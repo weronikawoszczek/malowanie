@@ -229,6 +229,18 @@ padding-bottom: 25px;
         @include animate;
       }
     }
+    &.checked{
+      color: $aux;
+      &:before {
+        content: "";
+        display: block;
+        width: 32px;
+        height: 1px;
+        margin-right: 10px;
+        background: #fff;
+        @include animate;
+      }
+    }
   }
 }
 

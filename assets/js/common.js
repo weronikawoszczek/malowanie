@@ -24,6 +24,11 @@ app.common = {
             });
         });
 
+        $('.topMenu a').click(function(e) {
+            $('topMenu a').removeClass('checked');
+            $(this).addClass('checked');
+        });
+
         $('.nav-el').on('click', function(e) {
             $('.nav-el').removeClass('active');
             $(this).addClass('active');
