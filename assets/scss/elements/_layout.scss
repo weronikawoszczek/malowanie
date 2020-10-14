@@ -266,16 +266,12 @@ a {
   letter-spacing: 2px;
   line-height: 2;
   position: fixed;
-  bottom: 1.5vw;
+  bottom: 10px;
   right: auto;
   left: auto;
   color: $aux;
   opacity: .6;
   z-index: 100;
-
-  @include media-breakpoint-down(sm) {
-    bottom: 10px;
-  }
 
   &.hidden {
     opacity: 0;
