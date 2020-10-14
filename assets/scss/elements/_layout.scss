@@ -273,6 +273,10 @@ a {
   opacity: .6;
   z-index: 100;
 
+  @include media-breakpoint-down(sm) {
+    bottom: 15px;
+  }
+
   &.hidden {
     opacity: 0;
   }
