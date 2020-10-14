@@ -150,6 +150,12 @@ a {
     max-width: 80%;
     padding-bottom: 15px;
   }
+
+  &.mal {
+    @include media-breakpoint-down(sm) {
+      padding-bottom: 20px;
+    }
+  }
 }
 
 .title {
@@ -258,6 +264,7 @@ a {
 .footer-sign {
   font-size: 1.15rem;
   letter-spacing: 2px;
+  line-height: 2;
   position: fixed;
   bottom: 1.5vw;
   right: auto;
@@ -276,5 +283,11 @@ a {
 
   &-mal {
     color: #b0895b;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    @media (max-width: 350px){
+      font-size: .8rem;
+    }
   }
 }
