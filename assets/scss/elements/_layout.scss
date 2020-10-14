@@ -3,10 +3,6 @@ body {
   font-size: $baseSize+px;
   font-family: $font-third;
   color: $main;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   line-height: 1;
 }
 
@@ -49,10 +45,11 @@ a {
   &-mal {
     background: url(../img/rurka-bg2.jpg) no-repeat center center fixed;
     background-attachment: fixed !important;
-    background-size: cover !important;
-    -moz-background-size: cover !important;
-    -webkit-background-size: cover !important;
-    -o-background-size: cover !important;
+    background-size: auto 100% !important;
+    //background-size: cover !important;
+    //-moz-background-size: cover !important;
+    //-webkit-background-size: cover !important;
+    //-o-background-size: cover !important;
     .title{
       color: #DDB381;
     }
