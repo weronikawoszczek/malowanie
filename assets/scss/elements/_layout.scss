@@ -238,11 +238,7 @@ a {
   display: flex;
   justify-content: center;
   line-height: 1.5;
-  position: absolute;
   bottom: 15px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  width: 100%;
 
   &-light {
     color: #A6CACA;
