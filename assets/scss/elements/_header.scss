@@ -169,7 +169,12 @@ padding-bottom: 25px;
 
   @include media-breakpoint-down(sm) {
     width: 100%;
-    padding: 15vw 20px 30px 20px;
+    padding: 30px 20px 30px 20px;
+  }
+
+  @media (max-width: 375px){
+    width: 100%;
+    padding: 20vw 20px 30px 20px;
   }
 
   ul {

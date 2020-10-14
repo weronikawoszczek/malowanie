@@ -39,6 +39,7 @@ a {
 
   &-rys{
     background: url(../img/weselne-bg.jpg) no-repeat center center fixed;
+    background-attachment: fixed !important;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -47,6 +48,7 @@ a {
 
   &-mal {
     background: url(../img/rurka-bg2.jpg) no-repeat center center fixed;
+    background-attachment: fixed !important;
     background-size: cover !important;
     -moz-background-size: cover !important;
     -webkit-background-size: cover !important;
