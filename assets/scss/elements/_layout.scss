@@ -33,7 +33,7 @@ a {
   min-height: 100vh;
   padding-top: 100px;
 
-  &-rys{
+  &-rys {
     background: url(../img/weselne-bg.jpg) no-repeat center center fixed;
     background-size: cover;
     -moz-background-size: cover;
@@ -47,33 +47,41 @@ a {
     -moz-background-size: cover !important;
     -webkit-background-size: cover !important;
     -o-background-size: cover !important;
-    .title{
+
+    .title {
       color: #DDB381;
     }
+
     .desc-wrapper {
       align-items: flex-start;
       text-align: left;
       color: rgb(133, 117, 95);
       margin-top: 25vh;
-      @media (max-width: 1200px){
+      @media (max-width: 1200px) {
         margin-top: 30vh;
       }
       @include media-breakpoint-down(sm) {
-        margin-top: 27vh;
+        //margin-top: 27vh;
+        position: absolute;
+        max-width: 80%;
+        top: 40vh;
+        margin-top: 0;
         color: rgb(130, 113, 89);
-        .title{
-          text-shadow: 1px 1px 1px rgba(121,106,86,.3);
+        .title {
+          text-shadow: 1px 1px 1px rgba(121, 106, 86, .3);
         }
-        .desc{
+        .desc {
           text-shadow: none;
         }
       }
-        .accent{
+
+      .accent {
         color: #DDB381;
-        text-shadow: 1px 1px 1px rgba(121,106,86,.3);
+        text-shadow: 1px 1px 1px rgba(121, 106, 86, .3);
       }
     }
-    .slick-prev:before, .slick-next:before{
+
+    .slick-prev:before, .slick-next:before {
       color: rgba(221, 179, 129, .6);
     }
   }
@@ -137,12 +145,6 @@ a {
   text-align: right;
   align-items: flex-end;
   z-index: 10000;
-  @include media-breakpoint-down(sm){
-    position: absolute;
-    max-width: 80%;
-    top: 35vh;
-    margin-top: 0;
-  }
 }
 
 .title {
@@ -179,7 +181,7 @@ a {
 
 .slick-list {
   width: 40vw;
-  @media (max-width: 1200px){
+  @media (max-width: 1200px) {
     width: 50vw;
   }
   @include media-breakpoint-down(sm) {
@@ -219,22 +221,22 @@ a {
   }
 }
 
-.footer{
+.footer {
   color: $aux;
   font-size: 1rem;
   display: flex;
   justify-content: center;
   line-height: 1.5;
 
-  &-light{
+  &-light {
     color: #A6CACA;
   }
 
-  &-lighter{
+  &-lighter {
     color: #a7a7a7;
   }
 
-  &-mal{
+  &-mal {
     color: #b0895b;
   }
 
@@ -244,7 +246,7 @@ a {
   }
 }
 
-.footer-sign{
+.footer-sign {
   font-size: 1.15rem;
   letter-spacing: 2px;
   position: absolute;
@@ -259,11 +261,11 @@ a {
     bottom: 10px;
   }
 
-  &.hidden{
+  &.hidden {
     opacity: 0;
   }
 
-    &-mal{
+  &-mal {
     color: #b0895b;
   }
 }
