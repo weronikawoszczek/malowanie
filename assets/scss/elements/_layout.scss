@@ -232,6 +232,11 @@ a {
   display: flex;
   justify-content: center;
   line-height: 1.5;
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
 
   &-light {
     color: #A6CACA;
@@ -247,14 +252,13 @@ a {
 
   @include media-breakpoint-down(sm) {
     font-size: 1.2rem;
-    margin-bottom: 10px;
   }
 }
 
 .footer-sign {
   font-size: 1.15rem;
   letter-spacing: 2px;
-  position: absolute;
+  position: fixed;
   bottom: 1.5vw;
   right: auto;
   left: auto;
