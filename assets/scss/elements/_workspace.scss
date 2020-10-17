@@ -30,6 +30,13 @@
     &.light {
       background-image: linear-gradient(to bottom, #e0cfcd, #826e72);
     }
+
+    @media (min-width: 1500px) {
+        .workspace__row {
+          max-width: 1500px;
+          margin: 0 auto;
+        }
+    }
   }
 
   &__row {
@@ -39,6 +46,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 0 2.4% 2.4%;
+    align-items: center;
 
     @media (max-width: 1000px) {
       padding: 0 0 3.3% 3.3%;

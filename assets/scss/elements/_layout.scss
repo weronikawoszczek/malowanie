@@ -263,8 +263,8 @@ a {
   line-height: 2;
   position: fixed;
   bottom: 10px;
-  right: auto;
-  left: auto;
+  left: 50%;
+  transform: translate(-50%,0);
   color: $aux;
   opacity: .6;
   z-index: 100;
@@ -277,6 +277,15 @@ a {
     opacity: 0;
   }
 
+  a {
+    text-decoration: underline rgba(10, 146, 165, .5);
+    color: $aux;
+
+    &:hover, &:focus, &:active {
+      color: $accent;
+    }
+  }
+
   &-mal {
     color: #b0895b;
     position: absolute;
@@ -285,5 +294,17 @@ a {
     @media (max-width: 350px){
       font-size: .8rem;
     }
+    a {
+      text-decoration: underline rgba(176, 137, 91, .5);
+      color: #b0895b;
+
+      &:hover, &:focus, &:active {
+        color: #eab87b;
+      }
+    }
   }
+}
+
+.slick-slide{
+  height: auto !important;
 }
