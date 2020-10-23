@@ -77,6 +77,4 @@ $(function () {
 
 $(window).on('scroll', function() {
     checkScroll();
-
-    // wWdth = $(window).width();
 });

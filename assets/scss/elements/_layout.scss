@@ -4,6 +4,7 @@ body {
   font-family: $font-third;
   color: $main;
   line-height: 1;
+  overflow-x: hidden;
 }
 
 // responsive images
@@ -266,6 +267,8 @@ a {
   left: 50%;
   transform: translate(-50%,0);
   color: $aux;
+  text-align: center;
+  width: 100%;
   opacity: .6;
   z-index: 100;
 
